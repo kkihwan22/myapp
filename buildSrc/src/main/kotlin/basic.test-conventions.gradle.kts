@@ -30,6 +30,9 @@ dependencies {
     testImplementation(Testing.mockito.junitJupiter)
     testImplementation(Testing.assertj.core)
 
+    testCompileOnly("org.projectlombok:lombok:_")
+    testAnnotationProcessor("org.projectlombok:lombok:_")
+
     /**
     project.afterEvaluate {
         if (project.pluginManager.hasPlugin("custom.spring-conventions")) {

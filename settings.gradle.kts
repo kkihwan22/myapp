@@ -5,4 +5,6 @@ plugins {
     id("de.fayard.refreshVersions") version "0.60.5"
 }
 
-include("apps:tutorial-java")
+include(
+    "apps:tutorial-java",
+    "apps:tutorial-spring")
