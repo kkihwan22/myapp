@@ -1,0 +1,44 @@
+# Gradle 관련
+.gradle/
+build/
+
+# IntelliJ IDEA 관련
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 로그 파일
+*.log
+
+# 운영 체제 관련
+.DS_Store
+Thumbs.db
+
+# Java 관련
+*.class
+*.jar
+*.war
+*.ear
+
+# 설정 파일
+*.swp
+*.swo
+*.bak
+
+# 환경 파일
+.env
+*.key
+*.pem
+
+# 테스트 결과 파일
+/test-results/
+/out/
+/reports/
+
+# Node.js 관련 (프로젝트에 포함된 경우)
+node_modules/
+
+# 기타
+*.tmp
+*.lock
