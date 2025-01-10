@@ -1,0 +1,173 @@
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T131021.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T131005.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T130908.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T130844.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T130526.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T130505.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T130453.200.txt
+
+###
+
+POST http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T130147.200.txt
+
+###
+
+GET http://localhost:8080/publish-json
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "kafka",
+  "message": "hello"
+}
+
+<> 2025-01-10T125930.200.txt
+
+###
+
+GET http://localhost:8080/publish?message=hello
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-01-10T101400.500.json
+
+###
+
+GET http://localhost:8080/publish?message=hello
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-01-10T101336.500.json
+
+###
+
+GET http://localhost:8080/publish
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-01-10T101156.500.json
+
+###
+
