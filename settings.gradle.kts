@@ -7,4 +7,6 @@ plugins {
 
 include(
     "apps:tutorial-java",
-    "apps:tutorial-spring")
+    "apps:tutorial-spring",
+    "apps:checkout"
+)

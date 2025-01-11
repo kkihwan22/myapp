@@ -1,0 +1,19 @@
+package com.myapp.checkout.model;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import java.util.Date;
+
+@Getter
+@Setter
+@ToString
+public class CheckoutSubmitRequest {
+    private Long checkoutId;
+    private Long memberId;
+    private Long productId;
+    private Long amount;
+    private String shippingAddress;
+    private Date createdAt;
+}
