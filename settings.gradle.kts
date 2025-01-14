@@ -8,5 +8,6 @@ plugins {
 include(
     "apps:tutorial-java",
     "apps:tutorial-spring",
-    "apps:checkout"
+    "apps:checkout",
+    "apps:shipment"
 )
