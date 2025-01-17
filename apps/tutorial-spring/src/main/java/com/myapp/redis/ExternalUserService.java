@@ -1,7 +1,9 @@
 package com.myapp.redis;
 
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -18,13 +20,19 @@ public class ExternalUserService {
         return id == 1 ? "Adam" : "Bab";
     }
 
-    public int getUserAge(Long id) {
+    @Cacheable(cacheNames = "userAgeCache", key = "#userId", condition = "#userId != null")
+    public int getUserAge(@NotNull Long userId) {
+
+        if (userId == null) {
+            throw new IllegalArgumentException("UserId cannot be null");
+        }
+
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {}
 
         LOG.info("Getting user age from other service...");
 
-        return id == 1 ? 20 : 32;
+        return userId == 1 ? 20 : 32;
     }
 }

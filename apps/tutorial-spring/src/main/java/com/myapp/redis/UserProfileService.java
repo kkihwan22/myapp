@@ -16,8 +16,9 @@ public class UserProfileService {
     private final StringRedisTemplate redisTemplate;
 
     public UserProfile getUser(Long id) {
+        String userName = this.getUserName(id);
         int age = externalUserService.getUserAge(id);
-        return new UserProfile(id, this.getUserName(id), age);
+        return new UserProfile(id, userName, age);
     }
 
     private String getUserName(Long id) {
@@ -28,7 +29,7 @@ public class UserProfileService {
         if (cachedName != null) return cachedName;
 
         String name = externalUserService.getUserName(id);
-        ops.set(key, name, 5, TimeUnit.SECONDS);
+        ops.set(key, name, 10, TimeUnit.SECONDS);
         return name;
     }
 }
