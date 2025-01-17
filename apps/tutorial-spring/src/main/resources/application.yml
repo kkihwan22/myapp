@@ -7,10 +7,14 @@ spring:
     redis:
       port: 6379
       host: localhost
-
+  kafka:
+    streams:
+      state-dir: /path/to/state-dir
 logging:
   level:
     org:
       springframework:
         web: DEBUG
         cache: DEBUG
+
+
